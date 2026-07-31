@@ -40,8 +40,9 @@ and each has a test that fails if it stops holding.
    sample interval per session. That is the safe direction; the alternative
    inflates every session by however long the poller happened to sleep.
 2. **Unattributed time stays unattributed.** Nothing spreads leftover minutes
-   across projects to make a day add up. `coverage` reports a 60%-attributed day
-   as 60%.
+   across projects to make a day add up. A day where three hours of five were
+   attributed is reported by `coverage` as a ratio of 0.6, not rounded up to a
+   full one.
 3. **Rounding only goes down or to nearest.** There is deliberately no `:ceil`;
    an unrecognised rounding mode falls back to `:floor`. Rounding up bills time
    nobody observed.
