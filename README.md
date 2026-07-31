@@ -28,7 +28,7 @@ depends on the other.
 | Dependencies | none |
 | Tests | 32 tests, 87 assertions, all green |
 | Runtime | `.cljc`, JVM + ClojureScript |
-| Capture agent | not here — see `cloud-itonami/kadou` |
+| Capture agents | not here — `cloud-itonami/kadou` ships three: desktop, git, calendar |
 
 ## The three invariants
 
