@@ -30,7 +30,7 @@
        no :ceil — rounding up bills time nobody observed.
 
   Portable (.cljc) across JVM / ClojureScript / SCI / GraalVM."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 ;; ---------------------------------------------------------------------------
 ;; Observation — one sample of what the worker was doing at one instant
