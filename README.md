@@ -145,8 +145,8 @@ disclose another worker's window titles to a third party.
 ## Test
 
 ```bash
-clojure -M:test
-clojure -M:lint
+kbb -M:test
+kbb -M:lint
 ```
 
 ## License
