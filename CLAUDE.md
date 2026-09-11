@@ -37,4 +37,4 @@ a named project must exist and a restated duration must match.
 
 ## Test
 
-    clojure -M:test && clojure -M:lint
+    kbb -M:test && kbb -M:lint
