@@ -1,5 +1,5 @@
 (ns kotoba.activity-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.activity :as a]))
 
 (def ^:private min-ms 60000)
