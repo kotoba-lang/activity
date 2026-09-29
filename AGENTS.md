@@ -1,4 +1,4 @@
-# CLAUDE.md — kotoba-lang/activity
+# AGENTS.md — kotoba-lang/activity
 
 Automatic work-time capture: observations → sessions → attribution → timesheet
 entries. Zero dependencies, no I/O, no clock.
